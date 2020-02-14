@@ -7,9 +7,9 @@ import { HeaderComponent } from "./header/header.component";
 import { ShoppingListComponent } from "./shopping-list/shopping-list.component";
 import { RecipeBookComponent } from "./recipe-book/recipe-book.component";
 import { RecipeListComponent } from "./recipe-book/recipe-list/recipe-list.component";
-import { RecipeDetailComponent } from './recipe-book/recipe-detail/recipe-detail.component';
-import { ShopEditComponent } from './shopping-list/shop-edit/shop-edit.component';
-import { RecipeItemComponent } from './recipe-book/recipe-list/recipe-item/recipe-item.component';
+import { RecipeDetailComponent } from "./recipe-book/recipe-detail/recipe-detail.component";
+import { ShoppingEditComponent } from "./shopping-list/shopping-edit/shopping-edit.component";
+import { RecipeItemComponent } from "./recipe-book/recipe-list/recipe-item/recipe-item.component";
 
 @NgModule({
   declarations: [
@@ -19,7 +19,7 @@ import { RecipeItemComponent } from './recipe-book/recipe-list/recipe-item/recip
     RecipeListComponent,
     RecipeBookComponent,
     RecipeDetailComponent,
-    ShopEditComponent,
+    ShoppingEditComponent,
     RecipeItemComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
