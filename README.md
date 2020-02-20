@@ -1,2 +1,2 @@
 # recipe-shop-project
-This is an angular side project.
+This is a recipe shop web application using Angular.
